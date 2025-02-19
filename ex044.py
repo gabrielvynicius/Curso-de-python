@@ -19,8 +19,13 @@ elif opcao == 2:
     print(f'O valor a ser pago pelo produto é de R${preco - (preco * 5/100):.2f}')
 elif opcao == 3:
     print(f'O valor a ser pago pelo produto é de R${preco:.2f}')
-else:
+elif opcao == 4:
+    vezes = int(input('Digite a quantidade de parcelas: ')) #aqui o usuário informa a quantidade de parcelas
+    valor = (preco + (preco * 20/100)) / vezes  #aqui é calculado o valor da parcela
+    print(f'Sua compra será parcelada em {vezes}x de R${valor:.2f} com juros.') #aqui é calculado o valor da parcela
     print(f'O valor a ser pago pelo produto é de R${preco + (preco * 20/100):.2f}')
+print('=='*20)
+
 # End
 # By Gabriel Vynicius
 

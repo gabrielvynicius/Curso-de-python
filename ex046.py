@@ -1,16 +1,9 @@
-#desenvolvendo um contador regressivo de fogos de artifício
-
 from time import sleep
 
-for c in range(10, -1, -1):
+for c in range(10, -1 ,-1):
     print(c)
-    sleep(1)
-print('BUM! BUM! POOOW!')
+    sleep(0.5)
 
-#outra forma de fazer
-'''from time import sleep
-for c in range(10, -1, -1):
-    print(c)
-    sleep(1)
-print('BUM! BUM! POOOW!')'''
+print('Fogos de artificio 🎆')
 
+# By Gabriel Vynicius
